@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UPAD Brochure Advertising Form</title>
+<!-- UPAD Sponsor Form v18.1 TEST: static public placements; premium positions held offline; disabled premium dropdown choices simplified -->
+<style>
+:root{--bg:#17051f;--panel:#23082d;--panel2:#2b0c37;--gold:#f3c85b;--gold2:#ffe39a;--orange:#d96b24;--text:#fffaf0;--muted:#d9cddd;--line:rgba(243,200,91,.34)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% 0,#3b1248 0,#17051f 42%,#0f0315 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.5}.wrap{width:min(980px,calc(100% - 28px));margin:auto}.top{padding:18px 0}.brand{display:flex;align-items:center;gap:14px;border:1px solid var(--gold);box-shadow:inset 0 0 0 4px rgba(243,200,91,.12),0 0 24px rgba(243,200,91,.08);border-radius:18px;padding:10px 14px}.brand img{width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}.brand strong{font-family:Georgia,serif;color:var(--gold2);font-size:clamp(14px,2vw,20px);letter-spacing:.04em}.hero{text-align:center;padding:22px 0 16px}.eyebrow{display:none}.hero h1{font-family:Georgia,serif;color:var(--gold2);font-size:clamp(28px,4.2vw,44px);line-height:1.08;margin:6px 0 12px}.lead{max-width:760px;margin:auto;color:var(--muted);font-size:17px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.step,.rate,.card{background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:16px}.step{padding:16px}.step b{display:block;color:var(--gold2);font-size:13px;margin-bottom:5px}.step span{font-size:13px;color:var(--muted)}.rates{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:18px 0 26px}.rate{text-align:center;padding:16px 10px;position:relative;min-height:122px;display:flex;flex-direction:column;justify-content:center;box-shadow:inset 0 0 0 1px rgba(255,255,255,.025)}.rate.unavailable{opacity:.72;background:rgba(255,255,255,.018);filter:saturate(.72)}.rate .availability{display:block;margin-top:7px;font-size:10px;font-weight:900;letter-spacing:.06em;color:var(--gold2)}.rate b{display:block;font-size:11px;color:var(--muted);min-height:34px;line-height:1.35}.rate strong{display:block;color:var(--gold2);font-size:23px;margin-top:2px}.card{padding:28px;margin-bottom:24px}.card#formCard{background:#351443;border:4px solid rgba(243,200,91,.68);box-shadow:0 10px 34px rgba(0,0,0,.22),inset 0 0 0 1px rgba(255,255,255,.05)}.card h2{font-family:Georgia,serif;color:var(--gold2);font-size:30px;margin:0 0 4px}.sub{margin:0 0 20px;color:var(--muted)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field.full{grid-column:1/-1}.field label{display:block;font-size:11px;letter-spacing:.08em;color:var(--gold2);font-weight:600;margin-bottom:7px}input,select,textarea{width:100%;border:1px solid rgba(255,255,255,.18);background:#120418;color:#fff;border-radius:12px;padding:13px;font:inherit;outline:none}input:focus,select:focus,textarea:focus{border-color:var(--gold)}select option{background:#fff;color:#111}select option:disabled{background:#eee;color:#999}textarea{min-height:130px;resize:vertical}.choice{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choice label{display:block;border:1px solid var(--line);border-radius:13px;padding:14px;cursor:pointer;background:rgba(255,255,255,.025);letter-spacing:0;color:var(--text);font-size:14px}.choice input{width:auto;margin-right:8px}.choice strong{display:inline}.choice-title{display:inline;font-weight:600}.choice small{display:block;color:var(--muted);margin:6px 0 0 25px}.upload-box{display:none}.upload-box.show{display:block}.notice{margin:18px 0 0;padding:14px;border-radius:13px;background:rgba(248,198,77,.08);border:1px solid rgba(248,198,77,.24);color:var(--muted);font-size:13px}.notice strong{color:var(--gold2)}.btn{display:flex;width:100%;justify-content:center;align-items:center;margin-top:18px;border:0;border-radius:999px;min-height:52px;background:linear-gradient(135deg,#ef8a2d,#c64f1d);color:white;font-weight:900;font-size:15px;letter-spacing:.04em;cursor:pointer}.btn:disabled{opacity:.6;cursor:wait}.status{display:none;margin-top:14px;padding:13px;border-radius:12px;text-align:center;font-weight:500}.status.show{display:block}.status.ok{border:1px solid rgba(114,211,154,.5);background:rgba(114,211,154,.12)}.status.err{border:1px solid rgba(255,120,120,.45);background:rgba(255,120,120,.1)}.back{text-align:center;margin:0 0 34px}.back a{color:var(--gold2);text-decoration:none;font-weight:800}.closed{display:none;text-align:center;padding:28px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.04);margin-bottom:28px}.closed.show{display:block}footer{text-align:center;color:var(--muted);font-size:12px;padding:20px 0 34px}@media(max-width:760px){.steps{grid-template-columns:1fr}.grid,.choice{grid-template-columns:1fr}.field.full{grid-column:auto}.card{padding:20px 16px}.brand img{width:46px;height:46px}}
+.ad-summary{display:none;margin-top:10px;padding:13px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.03);color:var(--muted);font-size:13px}.ad-summary.show{display:block}.ad-summary strong{color:var(--gold2)}.summary-heading{color:var(--gold2);font-weight:600}.saved-message{margin-top:8px;padding:10px;border-radius:10px;background:rgba(0,0,0,.16);color:var(--text);white-space:pre-wrap;overflow-wrap:anywhere}.edit-message{margin-top:10px;border:1px solid var(--gold);border-radius:999px;background:transparent;color:var(--gold2);padding:8px 14px;font-weight:800;cursor:pointer}.edit-message:hover{background:rgba(243,200,91,.08)}.file-status{display:none;margin-top:9px;color:var(--gold2);font-weight:700;font-size:13px}.file-status.show{display:block}.modal-backdrop{display:none;position:fixed;inset:0;background:rgba(5,0,8,.82);z-index:9999;align-items:center;justify-content:center;padding:18px}.modal-backdrop.show{display:flex}.modal{width:min(650px,100%);max-height:90vh;overflow:auto;background:#23082d;border:1px solid var(--gold);border-radius:18px;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.5)}.modal h3{font-family:Georgia,serif;color:var(--gold2);font-size:25px;margin:0 0 10px}.modal p{color:var(--muted);margin:0 0 14px}.modal-check{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:14px;color:var(--text);font-size:14px}.modal-check input{width:auto;margin-top:4px}.modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:18px}.modal-actions button{border:0;border-radius:999px;padding:11px 18px;font-weight:800;cursor:pointer}.modal-cancel{background:#eee6f0;color:#3a2440}.modal-save{background:linear-gradient(135deg,#ef8a2d,#c64f1d);color:#fff}
+.support{margin:0 0 24px;padding:18px 20px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.035)}.support h3{font-family:Georgia,serif;color:var(--gold2);margin:0 0 10px;font-size:20px}.support-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.support-item{padding:12px;border-radius:12px;background:rgba(255,255,255,.035)}.support-item b{display:block;color:var(--gold2);font-size:12px;margin-bottom:4px}.support-label{color:var(--gold2);font-size:12px;font-weight:600;margin-bottom:4px}.support-item span,.support-item a{color:var(--muted);font-size:13px;text-decoration:none}.support-item a:hover{color:var(--gold2)}@media(max-width:760px){.support-grid{grid-template-columns:1fr}}
+.ad-materials{border:1px solid rgba(212,175,55,.45);border-radius:16px;padding:18px;background:rgba(255,255,255,.035)}.materials-help{margin:0 0 18px;color:#eee2ef;line-height:1.55}.ad-materials textarea{width:100%;box-sizing:border-box;resize:vertical;min-height:130px;margin-bottom:16px}
+
+#submitBtn{width:auto;min-width:210px;max-width:100%;padding:12px 22px;font-size:14px;display:block;margin:18px auto 0}
+
+.notice{max-width:none;width:100%;box-sizing:border-box;padding:12px 18px;line-height:1.45}
+.success-card{margin-top:18px;padding:20px 22px;border-radius:16px;border:1px solid rgba(114,211,154,.5);background:rgba(114,211,154,.10);text-align:left}.success-card .success-title{font-family:Georgia,serif;color:var(--gold2);font-size:22px;font-weight:700;margin-bottom:8px}.success-card p{margin:7px 0;color:var(--text);line-height:1.55}.success-card .next-title{color:var(--gold2);font-weight:800;margin-top:14px}.success-card .ref{margin-top:12px;color:var(--muted);font-size:12px}.success-card .ref strong{color:var(--gold2)}
+</style>
+</head>
+<body>
+<div class="wrap top"><div class="brand"><img src="assets/upad-logo.jpg" alt="UPAD logo"><strong>UTTAR PRADESH ASSOCIATION OF DETROIT (UPAD)</strong></div></div>
+<main class="wrap">
+<section class="hero"><div class="eyebrow" id="eventEyebrow">UPAD</div><h1 id="formTitle">Diwali 2026 Brochure Advertising Form</h1><p class="lead" id="heroText">Showcase your business, organization, or personal message in the UPAD Diwali 2026 brochure. Send us your finished JPG, or simply share your message and information and we’ll create the ad for you.</p></section>
+<div class="steps"><div class="step"><b>1 · SHARE YOUR AD</b><span>Send us your information, message and/or artwork.</span></div><div class="step"><b>2 · CONFIRM PLACEMENT</b><span>We’ll work with you to confirm your preferred size and placement.</span></div><div class="step"><b>3 · COMPLETE PAYMENT</b><span>Once confirmed, we’ll send you the secure Zeffy payment link.</span></div></div>
+<div class="rates" id="rates">
+<div class="rate"><b>INSIDE – HALF PAGE</b><strong>$150</strong></div>
+<div class="rate"><b>INSIDE – FULL PAGE</b><strong>$300</strong></div>
+<div class="rate unavailable"><b>INSIDE COVER – FRONT</b><strong>$400</strong><span class="availability">ON HOLD · CONTACT UPAD FOR AVAILABILITY</span></div>
+<div class="rate unavailable"><b>INSIDE COVER – BACK</b><strong>$400</strong><span class="availability">ON HOLD · CONTACT UPAD FOR AVAILABILITY</span></div>
+<div class="rate unavailable"><b>OUTSIDE COVER – BACK</b><strong>$500</strong><span class="availability">ON HOLD · CONTACT UPAD FOR AVAILABILITY</span></div>
+<div class="rate unavailable"><b>OUTSIDE COVER – FRONT</b><strong>$1,000</strong><span class="availability">ON HOLD · CONTACT UPAD FOR AVAILABILITY</span></div>
+</div>
+<div class="closed" id="closedBox"></div>
+<section class="card" id="formCard"><h2>Advertising Details</h2><p class="sub">Share your advertising details below. Once your placement is confirmed, we’ll email you the secure Zeffy payment link.</p>
+<form id="sponsorForm">
+<div class="grid">
+<div class="field"><label>SPONSOR / BUSINESS NAME *</label><input name="businessName" id="businessName" autocomplete="organization" required></div>
+<div class="field"><label>CONTACT PERSON *</label><input name="contactPerson" id="contactPerson" autocomplete="name" required></div>
+<div class="field"><label>EMAIL *</label><input name="email" id="email" type="email" autocomplete="email" required></div>
+<div class="field"><label>PHONE *</label><input name="phone" id="phone" type="tel" autocomplete="tel" required></div>
+<div class="field full"><label>REQUESTED SIZE / PLACEMENT *</label><select name="requestedPlacementId" id="placementSelect" required>
+<option value="">Please select</option>
+<option value="HALF_PAGE">Inside – Half Page — $150</option>
+<option value="FULL_PAGE">Inside – Full Page — $300</option>
+<option value="INSIDE_FRONT_HOLD" disabled>Inside Cover – Front — $400</option>
+<option value="INSIDE_BACK_HOLD" disabled>Inside Cover – Back — $400</option>
+<option value="BACK_COVER_HOLD" disabled>Outside Cover – Back — $500</option>
+<option value="FRONT_COVER_HOLD" disabled>Outside Cover – Front — $1,000</option>
+<option value="NOT_SURE">Not sure — please advise</option>
+</select></div>
+<div class="field full ad-materials">
+<label>AD MATERIALS *</label>
+<p class="materials-help">Provide your message, a JPG image, or both. If you need help putting your advertisement together, the UPAD Brochure Team will contact you.</p>
+<label for="messageField">ADVERTISEMENT MESSAGE / INSTRUCTIONS</label>
+<textarea name="message" id="messageField" rows="6" placeholder="Enter the wording, greeting, business information, or instructions you want included in your advertisement."></textarea>
+<div class="upload-box show" id="uploadBox">
+<label id="uploadLabel">IMAGE / ARTWORK (OPTIONAL)</label>
+<input id="artworkFile" type="file" accept="image/jpeg,.jpg,.jpeg">
+<div class="file-status" id="fileStatus"></div>
+<small>You may upload a family photo, logo, finished advertisement, or other JPG artwork.</small>
+</div>
+</div>
+<div class="notice">Please note: Advertising placements are confirmed based on availability. Premium positions, including cover placements, are limited and will be confirmed with you before payment. Once your placement is confirmed, we’ll send you the secure Zeffy payment link.</div>
+<button class="btn" id="submitBtn" type="submit">SEND MY AD DETAILS →</button><div class="status" id="status"></div>
+</form></section>
+<section class="support" id="supportBox" style="display:none"><h3>Need Assistance?</h3><div class="support-grid" id="supportGrid"></div></section><div class="back"><a id="returnLink" href="index.html">← Return to UPAD Event</a></div>
+<footer><div id="footerText"></div><div id="pageVersion" style="margin-top:8px;font-size:10px;opacity:.55;letter-spacing:.03em;">TEST v18.1 · 2026-10-07</div></footer>
+<script>
+(function(){
+ const WEB_APP_URL='https://script.google.com/macros/s/AKfycbzqoGWngCm8IQb4QqGBP561aVv5l_rlFoNXgvARrilsp_bAXmJCbdzNlbBxaY6LgZrE0Q/exec';
+const form=document.getElementById('sponsorForm'), file=document.getElementById('artworkFile'), btn=document.getElementById('submitBtn'), status=document.getElementById('status'), select=document.getElementById('placementSelect');
+ const messageField=document.getElementById('messageField'), fileStatus=document.getElementById('fileStatus');
+ const config={advertisingOpen:true,maxUploadMb:10,coordinatorEmail:'upadsec@gmail.com'};
+ const optionMap={HALF_PAGE:{id:'HALF_PAGE',publicLabel:'Inside – Half Page — $150',available:true},FULL_PAGE:{id:'FULL_PAGE',publicLabel:'Inside – Full Page — $300',available:true},NOT_SURE:{id:'NOT_SURE',publicLabel:'Not sure — please advise',available:true}};
+
+ file.addEventListener('change',()=>{
+   if(file.files.length){fileStatus.textContent='✓ Artwork attached: '+file.files[0].name;fileStatus.classList.add('show')}
+   else{fileStatus.textContent='';fileStatus.classList.remove('show')}
+ });
+ function show(msg,type){status.textContent=msg;status.className='status show '+type}
+ function showSuccess(result){const ref=result&&result.requestId?'<div class="ref">Reference ID: <strong>'+escapeHtml(result.requestId)+'</strong></div>':'';status.className='status show ok success-card';status.innerHTML='<div class="success-title">✓ Advertising Details Received</div><p>We appreciate your support of UPAD. Your advertising details have been received successfully.</p><div class="next-title">What happens next?</div><p>UPAD will review your requested placement. If you selected a limited premium placement, it is now temporarily on hold.</p><p>Once your placement is confirmed, we’ll email you the secure Zeffy payment link.</p>'+ref;}
+ function fileAsBase64(f){return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=reject;reader.readAsDataURL(f)})}
+ function money(n){return Number(n).toLocaleString('en-US',{maximumFractionDigits:2})}
+ function formatPublicDate(v){if(!v)return'';const d=new Date(v);if(isNaN(d))return String(v);return String(d.getMonth()+1).padStart(2,'0')+'/'+String(d.getDate()).padStart(2,'0')+'/'+d.getFullYear()}
+ function formatPhone(v){const raw=String(v==null?'':v).trim();const digits=raw.replace(/\D/g,'');if(digits.length===10)return '('+digits.slice(0,3)+') '+digits.slice(3,6)+'-'+digits.slice(6);return raw}
+ function renderSupport(c){const box=document.getElementById('supportBox'),grid=document.getElementById('supportGrid');const defs=[['Technical / Form Help',c.technical],['Advertising / Artwork Help',c.advertising],['Payment / Zeffy Help',c.payment]];grid.innerHTML='';defs.forEach(([label,x])=>{if(!x||(!x.name&&!x.phone&&!x.email))return;const d=document.createElement('div');d.className='support-item';let contact=x.name?'<span>'+escapeHtml(x.name)+'</span><br>':'';if(x.phone){const phoneRaw=String(x.phone);contact+='<a href="tel:'+escapeHtml(phoneRaw.replace(/[^+0-9]/g,''))+'">'+escapeHtml(formatPhone(phoneRaw))+'</a><br>'}if(x.email)contact+='<a href="mailto:'+escapeHtml(x.email)+'">'+escapeHtml(x.email)+'</a>';d.innerHTML='<div class="support-label">'+escapeHtml(label)+'</div>'+contact;grid.appendChild(d)});box.style.display=grid.children.length?'block':'none'}
+
+ function initializeStaticPage(){
+   document.getElementById('footerText').textContent='Uttar Pradesh Association of Detroit (UPAD) · Celebrate Light · Cherish Tradition · Strengthen Community';
+   const r=document.getElementById('returnLink');r.href='https://events.upad.us/2026/diwali/';r.target='_top';r.textContent='← Return to UPAD Diwali 2026';
+   document.getElementById('uploadLabel').textContent='IMAGE / ARTWORK (OPTIONAL — JPG, MAX 10 MB)';
+   const grid=document.getElementById('supportGrid');grid.innerHTML='';
+   [['Technical / Form Help','Anand Sinha','2488723057','upadsec@gmail.com'],['Advertising / Artwork Help','Adarsh Suneja','2487033985','adsuneja@gmail.com'],['Payment / Zeffy Help','Ekta Mehta','2483466654','UPADTreasurer@gmail.com']].forEach(([label,name,phone,email])=>{const d=document.createElement('div');d.className='support-item';d.innerHTML='<div class="support-label">'+escapeHtml(label)+'</div><span>'+escapeHtml(name)+'</span><br><a href="tel:'+phone+'">'+escapeHtml(formatPhone(phone))+'</a><br><a href="mailto:'+escapeHtml(email)+'">'+escapeHtml(email)+'</a>';grid.appendChild(d)});
+   document.getElementById('supportBox').style.display='block';
+ }
+ function submitViaBridge(payload){
+   return new Promise((resolve,reject)=>{
+     const token='upad-'+Date.now()+'-'+Math.random().toString(36).slice(2);
+     const frame=document.createElement('iframe');frame.name='upadSubmitFrame-'+token;frame.style.display='none';document.body.appendChild(frame);
+     let submitted=false,loadFallback;
+     frame.addEventListener('load',()=>{if(!submitted)return;clearTimeout(loadFallback);loadFallback=setTimeout(()=>{cleanup();resolve({success:true,requestId:'',bridgeFallback:true,message:'Your advertising details have been received.'})},1200)});
+     const bridge=document.createElement('form');bridge.method='POST';bridge.action=WEB_APP_URL;bridge.target=frame.name;bridge.style.display='none';
+     [['bridge','1'],['bridgeToken',token],['payload',JSON.stringify(payload)]].forEach(([n,v])=>{const i=document.createElement('input');i.type='hidden';i.name=n;i.value=v;bridge.appendChild(i)});
+     document.body.appendChild(bridge);
+     let timer;
+     const cleanup=()=>{clearTimeout(timer);clearTimeout(loadFallback);window.removeEventListener('message',onMessage);bridge.remove();setTimeout(()=>frame.remove(),100)};
+     const onMessage=(ev)=>{if(!ev.data||ev.data.type!=='UPAD_SPONSOR_SUBMIT'||ev.data.token!==token)return;cleanup();resolve(ev.data.result)};
+     window.addEventListener('message',onMessage);
+     timer=setTimeout(()=>{cleanup();reject(new Error('The submission took too long. Please check your connection and try again.'))},90000);
+     submitted=true;bridge.submit();
+   });
+ }
+ function escapeHtml(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+
+ form.addEventListener('submit',async function(e){
+  e.preventDefault();
+  if(!config){show('The advertising form is not ready yet. Please refresh the page.','err');return}
+  const fd=new FormData(form), optionId=fd.get('requestedPlacementId'), option=optionMap[optionId];
+  if(!option||option.available===false){show('Please choose an available placement.','err');return}
+  const message=String(messageField.value||'').trim();
+  let selectedFile=file.files.length?file.files[0]:null;
+  if(!message&&!selectedFile){show('Please provide a message and/or attach a JPG before submitting.','err');return}
+  if(selectedFile){
+    if(selectedFile.size===0){show('The selected JPG is empty. Please choose a valid JPG file.','err');return}
+    const lowerName=String(selectedFile.name||'').toLowerCase();
+    const mime=String(selectedFile.type||'').toLowerCase();
+    const hasJpgExtension=/\.(jpe?g)$/.test(lowerName);
+    const mimeOkay=!mime||mime==='image/jpeg'||mime==='image/jpg';
+    if(!hasJpgExtension||!mimeOkay){show('Please select a valid JPG/JPEG image file.','err');return}
+    if(selectedFile.size>Number(config.maxUploadMb||10)*1024*1024){show('Please upload a JPG smaller than '+config.maxUploadMb+' MB.','err');return}
+  }
+  const materialType=message&&selectedFile?'JPG + message':selectedFile?'JPG':'Message';
+  btn.disabled=true;btn.textContent=selectedFile?'UPLOADING & SENDING…':'SENDING…';show(selectedFile?'Uploading your artwork and sending your ad details…':'Sending your ad details to UPAD…','ok');
+  try{
+   const payload={action:'submit',businessName:fd.get('businessName'),contactPerson:fd.get('contactPerson'),email:fd.get('email'),phone:fd.get('phone'),requestedPlacementId:option.id,requestedPlacement:option.publicLabel,artworkOption:materialType,message:message,editingAuthorization:''};
+   if(selectedFile){payload.fileName=selectedFile.name;payload.fileType=selectedFile.type||'image/jpeg';payload.fileData=await fileAsBase64(selectedFile)}
+   const result=await submitViaBridge(payload);
+   if(!result||!result.success) throw new Error((result&&result.message)||'Unable to send your ad details.');
+   form.reset();fileStatus.classList.remove('show');fileStatus.textContent='';messageField.value='';showSuccess(result);
+
+  }catch(err){show(err.message||('We could not send your ad details. Please contact '+(config.coordinatorEmail||'UPAD')+' or try again.'),'err');console.error(err)}finally{btn.disabled=!(config&&config.advertisingOpen);btn.textContent='SEND MY AD DETAILS →'}
+ });
+
+ initializeStaticPage();
+})();
+</script>
+</body></html>
